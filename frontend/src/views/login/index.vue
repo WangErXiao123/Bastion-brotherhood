@@ -268,7 +268,7 @@ const formTransition = { duration: 0.6, delay: 0.6 }
             tag="button"
             type="submit"
             :disabled="isLoading"
-            class="w-full bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 hover:from-pink-600 hover:via-purple-600 hover:to-cyan-600 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2 bg-[length:200%_200%] animate-gradient disabled:opacity-70"
+            class="hover:cursor-pointer w-full bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 hover:from-pink-600 hover:via-purple-600 hover:to-cyan-600 text-white font-semibold py-4 px-6 rounded-xl transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg flex items-center justify-center gap-2 bg-[length:200%_200%] animate-gradient disabled:opacity-70"
           >
             <Motion
               v-if="isLoading"
